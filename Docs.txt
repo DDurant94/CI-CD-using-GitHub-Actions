@@ -1,0 +1,37 @@
+About:
+
+PIP Install:
+  (pip install flask faker pytest pytest-mock)
+
+Questions:
+  CI/CD using GitHub Actions
+
+  Remember to take your time and work through each question diligently! Test your code, make sure it works, and try to find ways to improve. 
+  Once you are happy and satisfied with your code, upload it to Github, then turn in your Github link at the bottom of the page!
+
+  Don't forget. Make sure this assignment is in it's own repository. Not mixed in with others!
+
+  Building and Testing a Feature Branch
+
+  Objective: The aim of this assignment is to demonstrate the process of building and testing a feature branch in a CI/CD pipeline.
+
+  Problem Statement: 
+    As part of the development of our small test_flask project, we are required to implement a branch to not deploy the project always in master, 
+    but to use a feature branch that allows us to simulate the development environment and add a new test in our app_test.py file to validate a 
+    negative sum.
+
+  Task 1: Create a new feature branch named feature/tests.
+
+  Task 2: Implement a new test in **app_test.py** to validate negative sum.
+
+  Task 3: Implement this branch in **main.yml** to run this branch in the pipeline
+
+  Task 4: Configure a CI/CD pipeline to build and test the feature/tests branch.
+
+  Task 5: Monitor the CI/CD pipeline to ensure that the build and tests pass successfully.
+
+  Expected Outcomes:
+
+    The feature/tests branch is successfully built and tested in the CI/CD pipeline.
+    The automated tests for the new feature pass without any failures.
+    The feature/tests branch is ready to be merged into the main codebase.
